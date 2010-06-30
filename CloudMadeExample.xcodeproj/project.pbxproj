@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* CloudMadeExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* CloudMadeExampleAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* CloudMadeExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* CloudMadeExampleViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* CloudMadeExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* CloudMadeExampleViewController.m */; };
+		F0C947EC11DB91DB00348B2D /* iPhoneSimulator.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F0C947EB11DB91DB00348B2D /* iPhoneSimulator.xcconfig */; };
+		F0D7AE7011DB966500FF65AA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0D7AE6F11DB966500FF65AA /* QuartzCore.framework */; };
+		F0D7AE9511DB999B00FF65AA /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F0D7AE9411DB999B00FF65AA /* libsqlite3.dylib */; };
+		F0D7AE9711DB999F00FF65AA /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F0D7AE9611DB999F00FF65AA /* libstdc++.6.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* CloudMadeExampleAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudMadeExampleAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* CloudMadeExampleAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudMadeExampleAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* CloudMadeExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudMadeExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* CloudMadeExampleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CloudMadeExampleViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* CloudMadeExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudMadeExampleViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* CloudMadeExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudMadeExampleViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* CloudMadeExample_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudMadeExample_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* CloudMadeExample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CloudMadeExample-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		F0C947EB11DB91DB00348B2D /* iPhoneSimulator.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = iPhoneSimulator.xcconfig; sourceTree = "<group>"; };
+		F0D7AE6F11DB966500FF65AA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F0D7AE9411DB999B00FF65AA /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		F0D7AE9611DB999F00FF65AA /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.dylib"; path = "usr/lib/libstdc++.6.dylib"; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				F0D7AE7011DB966500FF65AA /* QuartzCore.framework in Frameworks */,
+				F0D7AE9511DB999B00FF65AA /* libsqlite3.dylib in Frameworks */,
+				F0D7AE9711DB999F00FF65AA /* libstdc++.6.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* CloudMadeExampleAppDelegate.h */,
+				1D3623250D0F684500981E51 /* CloudMadeExampleAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* CloudMadeExampleViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* CloudMadeExampleViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* CloudMadeExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				F0C947EB11DB91DB00348B2D /* iPhoneSimulator.xcconfig */,
+				F0D7AE9411DB999B00FF65AA /* libsqlite3.dylib */,
+				F0D7AE9611DB999F00FF65AA /* libstdc++.6.dylib */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* CloudMadeExample_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2899E5210DE3E06400AC0155 /* CloudMadeExampleViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* CloudMadeExample-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				F0D7AE6F11DB966500FF65AA /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* CloudMadeExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "CloudMadeExample" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloudMadeExample;
+			productName = CloudMadeExample;
+			productReference = 1D6058910D05DD3D006BFB54 /* CloudMadeExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CloudMadeExample" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* CloudMadeExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* CloudMadeExampleViewController.xib in Resources */,
+				F0C947EC11DB91DB00348B2D /* iPhoneSimulator.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* CloudMadeExampleAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* CloudMadeExampleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0C947EB11DB91DB00348B2D /* iPhoneSimulator.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CloudMadeExample_Prefix.pch;
+				INFOPLIST_FILE = "CloudMadeExample-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/libs/CloudMade/Device\"",
+					"\"$(SRCROOT)/libs/CloudMade/Simulator\"",
+					"\"$(SRCROOT)/libs/Proj4/Device\"",
+					"\"$(SRCROOT)/libs/Proj4/Simulator\"",
+					"\"$(SRCROOT)/libs/route-me/Device\"",
+					"\"$(SRCROOT)/libs/route-me/Simulator\"",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = "";
+				"OTHER_LDFLAGS[sdk=iphoneos*]" = (
+					"-ObjC",
+					"-lCloudMadeApi",
+					"-lMapView",
+					"-lProj4",
+				);
+				"OTHER_LDFLAGS[sdk=iphonesimulator*]" = (
+					"-ObjC",
+					"-lCloudMadeApi",
+					"-lMapView",
+					"-lProj4",
+				);
+				"OTHER_LDFLAGS[sdk=iphonesimulator3.1.3]" = (
+					"-all_load",
+					"-ObjC",
+					"-lCloudMadeApi_ios3",
+					"-lMapView_ios3",
+					"-lProj4",
+				);
+				"OTHER_LDFLAGS[sdk=iphonesimulator4.0]" = (
+					"-all_load",
+					"-ObjC",
+					"-lCloudMadeApi_ios4",
+					"-lMapView_ios4",
+					"-lProj4",
+				);
+				PRODUCT_NAME = CloudMadeExample;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0C947EB11DB91DB00348B2D /* iPhoneSimulator.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CloudMadeExample_Prefix.pch;
+				INFOPLIST_FILE = "CloudMadeExample-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/libs/CloudMade/Device\"",
+					"\"$(SRCROOT)/libs/CloudMade/Simulator\"",
+					"\"$(SRCROOT)/libs/Proj4/Device\"",
+					"\"$(SRCROOT)/libs/Proj4/Simulator\"",
+					"\"$(SRCROOT)/libs/route-me/Device\"",
+					"\"$(SRCROOT)/libs/route-me/Simulator\"",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = "";
+				"OTHER_LDFLAGS[sdk=iphoneos*]" = (
+					"-ObjC",
+					"-lCloudMadeApi",
+					"-lMapView",
+					"-lProj4",
+				);
+				"OTHER_LDFLAGS[sdk=iphonesimulator*]" = (
+					"-ObjC",
+					"-lCloudMadeApi",
+					"-lMapView",
+					"-lProj4",
+				);
+				"OTHER_LDFLAGS[sdk=iphonesimulator3.1.3]" = (
+					"-all_load",
+					"-ObjC",
+					"-lCloudMadeApi_ios3",
+					"-lMapView_ios3",
+					"-lProj4",
+				);
+				"OTHER_LDFLAGS[sdk=iphonesimulator4.0]" = (
+					"-all_load",
+					"-ObjC",
+					"-lCloudMadeApi_ios4",
+					"-lMapView_ios4",
+					"-lProj4",
+				);
+				PRODUCT_NAME = CloudMadeExample;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/inc/CloudMade",
+					"$(SRCROOT)/inc/Proj4",
+					"$(SRCROOT)/inc/route-me",
+				);
+				"LIBRARY_SEARCH_PATHS[sdk=iphoneos*][arch=*]" = (
+					"$(SRCROOT)/libs/Proj4/Device",
+					"$(SRCROOT)/libs/CloudMade/Device",
+					"$(SRCROOT)/libs/route-me/Device",
+				);
+				"LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*][arch=*]" = (
+					"$(SRCROOT)/libs/Proj4/Simulator",
+					"$(SRCROOT)/libs/CloudMade/Simulator",
+					"$(SRCROOT)/libs/route-me/Simulator",
+				);
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/inc/CloudMade",
+					"$(SRCROOT)/inc/Proj4",
+					"$(SRCROOT)/inc/route-me",
+				);
+				"LIBRARY_SEARCH_PATHS[sdk=iphoneos*][arch=*]" = (
+					"$(SRCROOT)/libs/Proj4/Device",
+					"$(SRCROOT)/libs/CloudMade/Device",
+					"$(SRCROOT)/libs/route-me/Device",
+				);
+				"LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*][arch=*]" = (
+					"$(SRCROOT)/libs/Proj4/Simulator",
+					"$(SRCROOT)/libs/CloudMade/Simulator",
+					"$(SRCROOT)/libs/route-me/Simulator",
+				);
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "CloudMadeExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CloudMadeExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
